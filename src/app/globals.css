@@ -118,6 +118,13 @@
 }
 
 
+#structures{
+  -webkit-text-stroke: 3px #F4B400;
+}
+#dot{
+  -webkit-text-stroke: 3px #F4B400;
+}
+
 
 @layer base {
   * {

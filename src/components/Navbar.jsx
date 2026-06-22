@@ -4,7 +4,7 @@ import Searchs from './Navbar/Search'
 
 function Navbar() {
   return (
-    <div className='absolute w-full h-[10%] z-50 text-white flex justify-around'>
+    <div className='fixed w-full h-[10%] z-50 text-white flex justify-around'>
         <Nav />
         <Searchs />
     </div>
