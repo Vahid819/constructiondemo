@@ -7,7 +7,7 @@ function Title() {
     <div className='absolute w-full h-screen'>
         <section className='w-[50%] h-full flex flex-col justify-center items-center px-20'>
             <div>
-            <h5 className='uppercase text-sm text-[#FFFFFF] drop-shadow-[0_4px_20px_rgba(0,0,0,0.5)]'>building the future</h5>
+            <h1 className='uppercase text-sm text-[#FFFFFF] drop-shadow-[0_4px_20px_rgba(0,0,0,0.5)]'>building the future</h1>
             <h1 className='text-7xl text-[#FFFFFF] drop-shadow-[0_4px_20px_rgba(0,0,0,0.5)]'>Building <b id='structures' className='text-transparent text-8xl'>structures,</b> crafting legacies<b id='dot' className='text-transparent'>.</b></h1>
             </div>
             <div className='gap-3 flex flex-col max-width: 550px mt-2'>

@@ -1,5 +1,7 @@
 import About from "@/components/About/About";
+import Bloglist from "@/components/Bloglist/Bloglist";
 import Companystatistics from "@/components/CompanyStatistics/Companystatistics";
+import Footerpart from "@/components/Footerpart/Footerpart";
 import Title from "@/components/Hero/Title";
 import Projectlist from "@/components/Projectlist/Projectlist";
 import Servicessection from "@/components/Servicessection/Servicessection";
@@ -27,11 +29,17 @@ function page() {
         <Companystatistics />
         <About />
       </div>
-      <div className="w-full h-[70%]">
+      <div className="w-full h-fit">
         <Servicessection />
       </div>
-      <div className="w-full h-[60%]">
+      <div className="w-full h-fit">
         <Projectlist />
+      </div>
+      <div className="w-full h-fit">
+          <Bloglist />
+      </div>
+      <div className="w-full h-fit">
+        <Footerpart />
       </div>
     </div>
   );

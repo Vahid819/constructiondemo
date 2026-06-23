@@ -8,7 +8,7 @@ import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(ScrollTrigger);
 
-function Yearsexperience() {
+function Yearsexperience(props) {
   const countRef = useRef(null);
 
   useGSAP(() => {
@@ -39,16 +39,11 @@ function Yearsexperience() {
       <Briefcase size={30} className="text-[#D4AF37]" />
 
       <div className="flex flex-col justify-center px-5">
-        <h1
-          ref={countRef}
-          className="text-3xl font-bold text-white"
-        >
+        <h1 ref={countRef} className={`text-3xl font-bold text-white`}>
           0+
         </h1>
 
-        <h2 className="text-[#afa9a4]">
-          Years Experience
-        </h2>
+        <h2 className="text-[#afa9a4]">Years Experience</h2>
       </div>
     </div>
   );
